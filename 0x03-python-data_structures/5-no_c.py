@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    newList = my_string[:]
-    for i in newList:
-        if i == 'c' or i == 'C':
-            newList.pop(i)
-        else:
-            return newList
+    newList = ""
+    for i in range(0, len(my_string):
+        if my_string[i] != 'c' and my_string[i] != 'C':
+            newList += my_string[i]
+    return newList
