@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""this class defines
+a sqaure by size"""
+
+
 class Square:
     """ class square defines a square by size:
     size must be an integer

@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""this class defines a
+square with self, must be int and throws some error"""
+
+
 class Square:
     def __init__(self, size=0):
         if type(size) is not int:
